@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "stlinkgdbtarget",
+            "request": "launch",
+            "name": "STM32F103C8: ST-Link Debug",
+            "cwd": "${workspaceFolder}",
+            "deviceName": "STM32F103C8",
+            "deviceCore": "Cortex-M3",
+            "gdb": "C:/Users/milo/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gdb.exe",
+            "serverExe": "ST-LINK_gdbserver.exe",
+            "serverCwd": "C:/Users/milo/AppData/Local/stm32cube/bundles/stlink-gdbserver/7.14.0+st.2/bin",
+            "serverCubeProgPath": "C:/Users/milo/AppData/Local/stm32cube/bundles/programmer/2.23.0/bin",
+            "imagesAndSymbols": [
+                {
+                    "imageFileName": "${workspaceFolder}/build/Debug/ADC_project.elf",
+                    "symbolFileName": "${workspaceFolder}/build/Debug/ADC_project.elf"
+                }
+            ]
+        }
+    ]
+    "liveWatch": 
+    {
+    "enabled": true,
+    "samplesPerSecond": 4
+    }
+}

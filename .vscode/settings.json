@@ -1,0 +1,23 @@
+{
+    "cmake.cmakePath": "C:/Users/milo/AppData/Local/stm32cube/bundles/cmake/4.4.3+st.1/bin/cmake.exe",
+    "cmake.generator": "Ninja",
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "cmake.useCMakePresets": "always",
+    "cmake.environment": {
+        "PATH": "C:/Users/milo/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin;C:/Users/milo/AppData/Local/stm32cube/bundles/ninja/1.13.2+st.1/bin;${env:PATH}"
+    },
+    "cmake.configureArgs": [
+        "-DCMAKE_COMMAND=C:/Users/milo/AppData/Local/stm32cube/bundles/cmake/4.4.3+st.1/bin/cmake.exe"
+    ],
+    "C_Cpp.default.compilerPath": "C:/Users/milo/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc.exe",
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "stm32cube-ide-clangd.path": "cube",
+    "stm32cube-ide-clangd.arguments": [
+        "starm-clangd",
+        "--query-driver=C:/Users/milo/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc*",
+        "--query-driver=C:/Users/milo/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-g++*"
+    ]
+}
